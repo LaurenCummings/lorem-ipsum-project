@@ -27,6 +27,10 @@ function App() {
         />
         <button type="submit" className="btn">generate</button>
       </form>
+      <article className="lorem-text">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, voluptate!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, voluptate!</p>
+      </article>
     </section>
   )
 }
