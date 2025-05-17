@@ -36,5 +36,6 @@ input {
 
 .lorem-text {
   font-size: 12px;
-  margin-top: 30px;
+  margin: 30px auto;
+  width: 500px;
 }
