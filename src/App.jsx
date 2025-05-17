@@ -3,7 +3,7 @@ import { useState } from 'react';
 import data from './data';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
 
   const handleSubmit = (e) => {
@@ -30,6 +30,8 @@ function App() {
           name="amount" 
           id="amount" 
           value={count} 
+          min="1"
+          max="8"
           onChange={(e) => setCount(e.target.value)}
         />
         <button type="submit" className="btn">generate</button>
